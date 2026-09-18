@@ -1,0 +1,31 @@
+GHCT - Generador de horarios (version portatil)
+================================================
+
+No hay que instalar nada: todo va dentro de esta carpeta.
+
+EMPEZAR
+  1. Doble clic en "Iniciar GHCT.bat".
+  2. Se abre una ventana negra y, a los pocos segundos, el navegador con la
+     portada. Entra con tu usuario y contrasena.
+  3. NO cierres la ventana negra mientras trabajas.
+  4. Para terminar: cierra el navegador y despues la ventana negra.
+
+SI EL NAVEGADOR NO SE ABRE SOLO
+  Abrelo tu y escribe la direccion que aparece en la ventana negra
+  (normalmente http://localhost:5000).
+
+TUS DATOS
+  - Todo lo que haces se guarda en datos\ghct.db.
+  - Cada vez que arrancas se hace una copia automatica en la carpeta
+    "copias" (se guardan las 30 ultimas).
+  - "Hacer copia de seguridad.bat" hace una copia en cualquier momento.
+  - Para volver a una copia: cierra la aplicacion, copia el archivo de
+    "copias" a "datos" y renombralo a ghct.db.
+
+IMPORTANTE
+  - No quites el pincho con la aplicacion abierta: cierra antes la
+    ventana negra.
+  - Trabaja siempre con la copia del pincho. Si trabajas a la vez con otra
+    copia en otro ordenador, tendras dos versiones distintas de los datos.
+  - Sin internet todo funciona; solo cambia la letra de la pantalla y no
+    se puede usar "leer planos con IA".
